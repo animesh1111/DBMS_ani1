@@ -1,0 +1,102 @@
+<!DOCTYPE html>HTML
+<HTML>
+<head>
+    <title>Personal Website</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <style type="text/css">
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: sans-serif;
+            background-color: #F1F1F1;
+        }
+        .navbar {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            background-color: #000000;
+            height: 50px;
+            line-height: 50px;
+        }
+        .navbar ul {
+            margin: 0;
+            padding: 0;
+            list-style-type: none;
+        }
+        .navbar ul li {
+            float: left;
+        }
+        .navbar ul li a {
+            display: block;
+            padding: 0 20px;
+            color: #FFFFFF;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .navbar ul li a:hover {
+            background-color: #AAAAAA;
+            color: #000000;
+        }
+        .dashboard {
+            width: 800px;
+            margin: 0 auto;
+            background-color: #FFFFFF;
+        }
+        .dashboard h1 {
+            padding: 20px;
+            text-align: center;
+            color: #000000;
+        }
+        .dashboard ul {
+            margin: 0;
+            padding: 0;
+            list-style-type: none;
+        }
+        .dashboard ul li {
+            float: left;
+            width: 25%;
+            text-align: center;
+            padding: 20px;
+            border: 1px solid #CCCCCC;
+        }
+        .dashboard ul li a {
+            display: block;
+            color: #000000;
+            font-weight: bold;
+            text-decoration: none;
+        }
+        .dashboard ul li a:hover {
+            background-color: #AAAAAA;
+            color: #000000;
+        }
+        @media only screen and (max-width: 800px) {
+            .dashboard {
+                width: 100%;
+            }
+            .dashboard ul li {
+                width: 50%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="cv.html">CV</a></li>
+            <li><a href="dashboard.html">Dashboard</a></li>
+        </ul>
+    </div>
+    <div class="dashboard">
+        <h1>Dashboard</h1>
+        <ul>
+            <li><a href="profile.html">Profile</a></li>
+            <li><a href="settings.html">Settings</a></li>
+            <li><a href="help.html">Help</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </div>
+</body>
+</HTML>
